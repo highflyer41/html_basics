@@ -1,15 +1,39 @@
 <html>
     <head>
         <title>Meng's Resume</title>
+        
+        
+        <!-- link to external stylesheet -->
+        <link type="text/css" rel="stylesheet" href="resume.css">
+
+        <style>
+            /* internal style sheet example */
+            h1 {
+                color: gold;
+                /* example style block */
+            }
+
+            h2 {
+                color: green;
+            }
+        </style>
+
     </head>
     <body>
-        <h1>Meng's Yang</h1>
+        <!-- inline css example -->
+        <h1 style="font-size: 80px; text-decoration: underline; text-transform: uppercase;">Meng Yang</h1>
         <!-- Testing comments, please ignore. -->
         <!-- Shortcut to comments ctrl+/ -->
 
         <h2>Executive Summary</h2>
         <p><strong>Full Stack Java Developer</strong> with front end and back end development experience</p>
-        <a href="https://www.google.com">Link to credentials</a>
+        <a href="https://www.google.com">Link to credentials</a><br><br>
+
+        <a href="">
+            <div id="linkbox">
+                <img id="linkImg" src="https://images-na.ssl-images-amazon.com/images/I/51rsErzSjML._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_.jpg">
+                <h3 id="overlayText">Text overlay</h3>
+            </div></a>
 
         <h2>Work Experience</h2>
         <ol type="I">
@@ -32,12 +56,12 @@
             <ul>
                 <li>B.S. in Physics</li>
             </ul>
-        </ul>
+        </ul><br>
         <a href="https://www.uncc.edu" target="_blank">
-            <img src="https://images-na.ssl-images-amazon.com/images/I/51rsErzSjML._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_.jpg" width="200" height="auto" alt="UNC Charlotte logo">
+            <img class="educationImage" src="https://images-na.ssl-images-amazon.com/images/I/51rsErzSjML._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_.jpg" width="200" height="auto" alt="UNC Charlotte logo">
         </a>
 
-        <h3>Places I've Traveled</h3>
+        <h2 id="placesHeader">Places I've Traveled</h2>
         <table>
             <tr>
                 <th>Destination</th>
