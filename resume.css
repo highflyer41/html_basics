@@ -6,6 +6,14 @@ html {
     background-attachment: fixed;
 }
 
+body {
+    margin: 0;
+}
+.bodydiv {
+    padding: 20;
+    color: white;
+}
+
 .navbar {
     width: 50%;
     height: 5%;
@@ -32,7 +40,7 @@ nav a:hover {
 
 button {
     padding: 5 40;
-    margin: 15;
+    margin-right: 15;
     border: 2px solid gold;
 }
 button:hover {
@@ -51,17 +59,12 @@ button:hover {
     background-color: blue;
 }
 
-body {
-    padding: 20px;
-}
-
 h1 {
     font-size: 50px;
     text-decoration: underline;
     text-transform: uppercase;
     color: gold;
 }
-
 h2 {
     font-size: 35px;
 }
@@ -112,4 +115,11 @@ th, td {
     left: 12%;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+form input, form label, form select {
+    display: block;
+}
+form input.inline {
+    display: inline-block;
 }
