@@ -65,17 +65,20 @@ button:hover {
 }
 
 h1 {
+    font-family: 'Oswald', sans-serif;
     font-size: 50px;
     text-decoration: underline;
     text-transform: uppercase;
     color: gold;
 }
 h2 {
+    font-family: 'Roboto Slab', serif;
     font-size: 35px;
     color: green;
 }
 
-li, p {
+li, p, h3 {
+    font-family: 'Roboto Mono', monospace;
     font-weight: bold;
     color: white;
 }
@@ -144,3 +147,6 @@ footer {
     margin: 0;
     opacity: 0.75;
 }
+
+/* google fonts */
+<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Mono|Roboto+Slab&display=swap" rel="stylesheet">
