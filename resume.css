@@ -4,7 +4,8 @@ html {
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: fixed;
-    background-image: image();
+    background-color: rgba(238, 238, 238, 0.05);
+    background-blend-mode: color;
 }
 
 body {
