@@ -1,0 +1,140 @@
+.container {
+    display: flex;
+    /* align-items: flex-end;
+    flex-direction: column; */
+}
+.container2 {
+    display:flex;
+    justify-content: space-between;
+}
+
+.container div, .container2 div{
+    border: 1px black solid;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    text-shadow: 2px 5px 1px #99ff99;
+}
+
+.box1 {
+    flex: 3;
+}
+.box2 {
+    flex: 2;
+}
+.box3 {
+    flex: 3;
+}
+.box4 {
+    flex-basis: 25%;
+}
+.box5 {
+    flex-basis: 25%;
+    box-shadow: 10px 10px 10px black;
+}
+.box6 {
+    flex-basis: 25%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #0088ce;
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.scale-in-center {
+	-webkit-animation: scale-in-center 0.5s ease-in-out both;
+	        animation: scale-in-center 0.5s ease-in-out both;
+}
+@-webkit-keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+}
+@keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+}
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 1s ease-in-out both;
+	        animation: tracking-in-expand 1s ease-in-out both;
+}
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+@keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+  
